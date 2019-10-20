@@ -1,10 +1,13 @@
 <template>
   <div class="movie">
-    <h2>{{ movie.Title }}</h2>
-    <div>
-      <img width="200" :alt="altText" :src="movie.Poster" />
+    <div class="movie-picture">
+      <img :alt="altText" :src="movie.Poster" />
     </div>
-    <p>{{ movie.Year }}</p>
+    <div class="movie-details">
+      <h2>{{ movie.Title }}</h2>
+      <p>{{ movie.Type }}</p>
+      <p>{{ movie.Year }}</p>
+    </div>
   </div>
 </template>
 

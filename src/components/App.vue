@@ -60,6 +60,9 @@ export default {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  width: 80%;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
 .add-movies {
@@ -71,8 +74,27 @@ export default {
   margin: 0 10px 30px 10px;
 }
 .movie {
-  padding: 5px 25px 10px 25px;
+  margin: 15px 5px;
   max-width: 25%;
+  width: 20%;
+  background: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.movie div img {
+  width: 100%;
+}
+.movie-picture {
+  min-height: 450px;
+  padding: 5px 15px 0px 15px;
+  background: #000;
+}
+
+.movie div h2 {
+  font-size: 12px;
 }
 .errorMessage {
   margin: auto;

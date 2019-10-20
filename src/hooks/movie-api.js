@@ -3,7 +3,7 @@ const API_KEY = "8eae3267";
 
 export const useMovieApi = () => {
   const state = reactive({
-    search: "Joker",
+    search: "Dragon",
     loading: true,
     movies: []
   });
